@@ -1,0 +1,810 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//devilish2o//Go 8 Week Course//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Go Programming - 8 Week Course
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+X-LIC-LOCATION:America/Toronto
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:go-course-day-01@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261112T113000
+DTEND;TZID=America/Toronto:20261112T120000
+SUMMARY:Go Course - Day 01: Install Go and meet the toolchain
+DESCRIPTION:Install Go\; run go version/go env\; create and run Hello World. Resource: https://go.dev/doc/tutorial/getting-started
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-02@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261113T103400
+DTEND;TZID=America/Toronto:20261113T110400
+SUMMARY:Go Course - Day 02: Packages\, imports and main
+DESCRIPTION:Split a small program into main and helper package. Resource: https://go.dev/tour/basics/1
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-03@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261114T112500
+DTEND;TZID=America/Toronto:20261114T115500
+SUMMARY:Go Course - Day 03: Variables\, constants and types
+DESCRIPTION:Build MB↔GB and Celsius↔Fahrenheit converters. Resource: https://go.dev/tour/basics/11
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-04@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261115T112800
+DTEND;TZID=America/Toronto:20261115T115800
+SUMMARY:Go Course - Day 04: Functions and multiple return values
+DESCRIPTION:Write conversion and disk-percentage functions\; return value plus error. Resource: https://gobyexample.com/functions
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-05@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261116T103600
+DTEND;TZID=America/Toronto:20261116T110600
+SUMMARY:Go Course - Day 05: Control flow and loops
+DESCRIPTION:Practise if/switch/for/range/defer\; build a repeating menu. Resource: https://go.dev/tour/flowcontrol/1
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-06@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261117T104300
+DTEND;TZID=America/Toronto:20261117T111300
+SUMMARY:Go Course - Day 06: Strings\, formatting and user input
+DESCRIPTION:Use fmt\, Scanner and strconv\; accept a hostname and print a report. Resource: https://gobyexample.com/string-functions
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-07@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261118T104300
+DTEND;TZID=America/Toronto:20261118T111300
+SUMMARY:Go Course - Day 07: Weekly review: mini CLI
+DESCRIPTION:Build a 3-command CLI with validation and helpful errors\; run gofmt. Resource: https://gobyexample.com/command-line-arguments
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-08@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261119T111800
+DTEND;TZID=America/Toronto:20261119T114800
+SUMMARY:Go Course - Day 08: Arrays and slices
+DESCRIPTION:Store service names\; practise len\, cap\, append and range. Resource: https://go.dev/tour/moretypes/7
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-09@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261120T105100
+DTEND;TZID=America/Toronto:20261120T112100
+SUMMARY:Go Course - Day 09: Maps
+DESCRIPTION:Model service status and hostname latency\; practise comma-ok. Resource: https://go.dev/tour/moretypes/19
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-10@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261121T104800
+DTEND;TZID=America/Toronto:20261121T111800
+SUMMARY:Go Course - Day 10: Structs
+DESCRIPTION:Define Host\, CheckResult and Service structs. Resource: https://go.dev/tour/moretypes/1
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-11@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261122T105400
+DTEND;TZID=America/Toronto:20261122T112400
+SUMMARY:Go Course - Day 11: Pointers
+DESCRIPTION:Update a Host through a pointer. Resource: https://go.dev/tour/moretypes/1
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-12@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261123T110400
+DTEND;TZID=America/Toronto:20261123T113400
+SUMMARY:Go Course - Day 12: Methods and receivers
+DESCRIPTION:Add methods\; compare value and pointer receivers. Resource: https://go.dev/tour/methods/1
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-13@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261124T110400
+DTEND;TZID=America/Toronto:20261124T113400
+SUMMARY:Go Course - Day 13: Packages and modules
+DESCRIPTION:Use go mod init\; split internal/checks and internal/report. Resource: https://go.dev/doc/tutorial/create-module
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-14@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261125T110300
+DTEND;TZID=America/Toronto:20261125T113300
+SUMMARY:Go Course - Day 14: Weekly review: host inventory
+DESCRIPTION:Combine structs\, slices\, maps\, methods and at least two packages. Resource: https://gobyexample.com/structs
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-15@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261126T112000
+DTEND;TZID=America/Toronto:20261126T115000
+SUMMARY:Go Course - Day 15: Interfaces
+DESCRIPTION:Define Checker\; implement fake checker and URL-checker stub. Resource: https://go.dev/tour/methods/9
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-16@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261127T111400
+DTEND;TZID=America/Toronto:20261127T114400
+SUMMARY:Go Course - Day 16: Implicit interfaces and composition
+DESCRIPTION:Add Reporter with text and JSON implementations. Resource: https://go.dev/doc/effective_go
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-17@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261128T103200
+DTEND;TZID=America/Toronto:20261128T110200
+SUMMARY:Go Course - Day 17: Error handling
+DESCRIPTION:Return errors explicitly\; wrap with fmt.Errorf and %w. Resource: https://gobyexample.com/errors
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-18@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261129T105100
+DTEND;TZID=America/Toronto:20261129T112100
+SUMMARY:Go Course - Day 18: Custom errors and validation
+DESCRIPTION:Validate hostnames\, ports and thresholds. Resource: https://gobyexample.com/custom-errors
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-19@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261130T111000
+DTEND;TZID=America/Toronto:20261130T114000
+SUMMARY:Go Course - Day 19: Unit tests
+DESCRIPTION:Write table-driven tests for calculations and validation. Resource: https://go.dev/doc/tutorial/add-a-test
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-20@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261201T110200
+DTEND;TZID=America/Toronto:20261201T113200
+SUMMARY:Go Course - Day 20: Coverage and race detector
+DESCRIPTION:Run go test ./...\, -cover and -race\; fix an introduced bug. Resource: https://go.dev/cmd/go/
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-21@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261202T111600
+DTEND;TZID=America/Toronto:20261202T114600
+SUMMARY:Go Course - Day 21: Weekly review: tested checker
+DESCRIPTION:Implement two Checker types\, validation\, custom errors and tests. Resource: https://gobyexample.com/testing-and-benchmarking
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-22@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261203T103800
+DTEND;TZID=America/Toronto:20261203T110800
+SUMMARY:Go Course - Day 22: Goroutines
+DESCRIPTION:Launch independent checks and wait for completion. Resource: https://go.dev/tour/concurrency/1
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-23@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261204T111600
+DTEND;TZID=America/Toronto:20261204T114600
+SUMMARY:Go Course - Day 23: Channels
+DESCRIPTION:Send check results through channels to main. Resource: https://go.dev/tour/concurrency/2
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-24@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261205T103500
+DTEND;TZID=America/Toronto:20261205T110500
+SUMMARY:Go Course - Day 24: WaitGroups and worker pools
+DESCRIPTION:Bound concurrent URL checks. Resource: https://gobyexample.com/worker-pools
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-25@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261206T112200
+DTEND;TZID=America/Toronto:20261206T115200
+SUMMARY:Go Course - Day 25: Select\, timeouts and cancellation
+DESCRIPTION:Use context.WithTimeout to stop slow checks. Resource: https://gobyexample.com/timeouts
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-26@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261207T111900
+DTEND;TZID=America/Toronto:20261207T114900
+SUMMARY:Go Course - Day 26: HTTP client
+DESCRIPTION:Request endpoints\, inspect status and latency\; set timeout. Resource: https://gobyexample.com/http-clients
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-27@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261208T105500
+DTEND;TZID=America/Toronto:20261208T112500
+SUMMARY:Go Course - Day 27: TCP and DNS basics
+DESCRIPTION:Use net.DialTimeout and net.LookupHost. Resource: https://pkg.go.dev/net
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-28@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261209T105300
+DTEND;TZID=America/Toronto:20261209T112300
+SUMMARY:Go Course - Day 28: Weekly review: concurrent endpoint checker
+DESCRIPTION:Check five owned/public endpoints concurrently with timeouts\; do not scan networks. Resource: https://gobyexample.com/worker-pools
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-29@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261210T112700
+DTEND;TZID=America/Toronto:20261210T115700
+SUMMARY:Go Course - Day 29: JSON encoding
+DESCRIPTION:Encode/decode CheckResult with struct tags. Resource: https://go.dev/doc/tutorial/
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-30@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261211T113000
+DTEND;TZID=America/Toronto:20261211T120000
+SUMMARY:Go Course - Day 30: Read and write files
+DESCRIPTION:Save/load JSON\; handle missing files and permissions. Resource: https://gobyexample.com/reading-files
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-31@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261212T113000
+DTEND;TZID=America/Toronto:20261212T120000
+SUMMARY:Go Course - Day 31: Command-line flags
+DESCRIPTION:Add --url\, --timeout\, --format and --output. Resource: https://gobyexample.com/command-line-flags
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-32@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261213T111600
+DTEND;TZID=America/Toronto:20261213T114600
+SUMMARY:Go Course - Day 32: Environment variables and configuration
+DESCRIPTION:Set precedence: flags\, environment\, defaults. Resource: https://gobyexample.com/environment-variables
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-33@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261214T104900
+DTEND;TZID=America/Toronto:20261214T111900
+SUMMARY:Go Course - Day 33: Structured logging
+DESCRIPTION:Use log/slog\; never log secrets. Resource: https://pkg.go.dev/log/slog
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-34@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261215T105100
+DTEND;TZID=America/Toronto:20261215T112100
+SUMMARY:Go Course - Day 34: Time\, tickers and periodic work
+DESCRIPTION:Run checks repeatedly and stop cleanly. Resource: https://gobyexample.com/tickers
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-35@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261216T111900
+DTEND;TZID=America/Toronto:20261216T114900
+SUMMARY:Go Course - Day 35: Weekly review: first usable CLI
+DESCRIPTION:Combine config\, concurrency\, JSON and slog into hostwatch. Resource: https://gobyexample.com/command-line-flags
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-36@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261217T111200
+DTEND;TZID=America/Toronto:20261217T114200
+SUMMARY:Go Course - Day 36: HTTP server fundamentals
+DESCRIPTION:Implement /healthz and /version. Resource: https://gobyexample.com/http-servers
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-37@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261218T111600
+DTEND;TZID=America/Toronto:20261218T114600
+SUMMARY:Go Course - Day 37: Handlers and routing
+DESCRIPTION:Add /checks and /checks/{id}\; keep handlers testable. Resource: https://go.dev/doc/articles/wiki/
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-38@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261219T112600
+DTEND;TZID=America/Toronto:20261219T115600
+SUMMARY:Go Course - Day 38: Request and response JSON
+DESCRIPTION:Decode\, validate and encode payloads. Resource: https://go.dev/doc/tutorial/
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-39@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261220T110800
+DTEND;TZID=America/Toronto:20261220T113800
+SUMMARY:Go Course - Day 39: Middleware and server timeouts
+DESCRIPTION:Add request logging\, test API-key middleware and server timeouts. Resource: https://pkg.go.dev/net/http
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-40@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261221T110200
+DTEND;TZID=America/Toronto:20261221T113200
+SUMMARY:Go Course - Day 40: Context propagation and graceful shutdown
+DESCRIPTION:Handle SIGINT/SIGTERM and shut down cleanly. Resource: https://gobyexample.com/context
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-41@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261222T112500
+DTEND;TZID=America/Toronto:20261222T115500
+SUMMARY:Go Course - Day 41: API integration tests
+DESCRIPTION:Use httptest for success\, invalid input and timeout. Resource: https://pkg.go.dev/net/http/httptest
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-42@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261223T105800
+DTEND;TZID=America/Toronto:20261223T112800
+SUMMARY:Go Course - Day 42: Weekly review: local monitoring API
+DESCRIPTION:Expose /healthz and /checks\; add curl examples and handler tests. Resource: https://go.dev/doc/tutorial/
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-43@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261224T110700
+DTEND;TZID=America/Toronto:20261224T113700
+SUMMARY:Go Course - Day 43: Database concepts and SQLite choice
+DESCRIPTION:Design a small check-history table. Resource: https://go.dev/doc/tutorial/database-access
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-44@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261225T105700
+DTEND;TZID=America/Toronto:20261225T112700
+SUMMARY:Go Course - Day 44: Database integration
+DESCRIPTION:Use database/sql\; create table and insert/read results. Resource: https://go.dev/doc/tutorial/database-access
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-45@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261226T112100
+DTEND;TZID=America/Toronto:20261226T115100
+SUMMARY:Go Course - Day 45: Linux process execution
+DESCRIPTION:Safely call systemctl is-active for a known service. Resource: https://gobyexample.com/spawning-processes
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-46@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261227T111500
+DTEND;TZID=America/Toronto:20261227T114500
+SUMMARY:Go Course - Day 46: Disk and filesystem checks
+DESCRIPTION:Use os.Stat and safe\, documented filesystem checks. Resource: https://pkg.go.dev/os
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-47@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261228T104300
+DTEND;TZID=America/Toronto:20261228T111300
+SUMMARY:Go Course - Day 47: ntfy notifications
+DESCRIPTION:POST to your own topic\; read topic from environment. Resource: https://docs.ntfy.sh/publish/
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-48@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261229T112000
+DTEND;TZID=America/Toronto:20261229T115000
+SUMMARY:Go Course - Day 48: Configuration\, security and dependency audit
+DESCRIPTION:Review validation\, timeouts\, least privilege and dependencies. Resource: https://go.dev/doc/tutorial/govulncheck
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-49@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261230T103900
+DTEND;TZID=America/Toronto:20261230T110900
+SUMMARY:Go Course - Day 49: Weekly review: end-to-end checks
+DESCRIPTION:Run endpoint/service checks\, persist results\, expose API status and test ntfy\; read-only. Resource: https://go.dev/doc/
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-50@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20261231T112200
+DTEND;TZID=America/Toronto:20261231T115200
+SUMMARY:Go Course - Day 50: Project structure and clean design
+DESCRIPTION:Review packages\, naming\, interfaces and errors. Resource: https://go.dev/doc/effective_go
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-51@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20270101T103800
+DTEND;TZID=America/Toronto:20270101T110800
+SUMMARY:Go Course - Day 51: Configuration and operational modes
+DESCRIPTION:Support one-shot/periodic modes and validate config. Resource: https://gobyexample.com/environment-variables
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-52@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20270102T103400
+DTEND;TZID=America/Toronto:20270102T110400
+SUMMARY:Go Course - Day 52: Logging\, metrics and observability
+DESCRIPTION:Add structured logs\, counters and durations. Resource: https://go.dev/doc/diagnostics
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-53@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20270103T105700
+DTEND;TZID=America/Toronto:20270103T112700
+SUMMARY:Go Course - Day 53: Build and cross-compile
+DESCRIPTION:Build Linux binary\; inspect with file and ldd. Resource: https://go.dev/cmd/go/
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-54@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20270104T111900
+DTEND;TZID=America/Toronto:20270104T114900
+SUMMARY:Go Course - Day 54: Deployment rehearsal
+DESCRIPTION:Use a test directory as normal user\; do not change existing services/nginx. Resource: https://go.dev/doc/
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-55@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20270105T105300
+DTEND;TZID=America/Toronto:20270105T112300
+SUMMARY:Go Course - Day 55: systemd service design
+DESCRIPTION:Draft an unprivileged unit for review\; do not enable yet. Resource: https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-course-day-56@devilish2o
+DTSTAMP:20261111T202400Z
+DTSTART;TZID=America/Toronto:20270106T111500
+DTEND;TZID=America/Toronto:20270106T114500
+SUMMARY:Go Course - Day 56: Final assessment and demo
+DESCRIPTION:Run tests/race detector/build\; demo CLI\, API\, history and ntfy. Resource: https://gobyexample.com/
+CATEGORIES:Learning,Programming,Go
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Go course starts in 5 minutes
+END:VALARM
+END:VEVENT
+END:VCALENDAR
