@@ -43,3 +43,9 @@ A practical, 30-minute-per-day Go learning path (12 November 2026 – 6 January 
 - [ ] Week 8 — Production polish and demo
 
 The course is deliberately scoped to 30 minutes per day. If a session is difficult, use the next day's first five minutes to review rather than extending the session.
+
+## Course materials
+- [Complete 56-day syllabus](syllabus/README.md)
+- [Week-by-week guides](syllabus/)
+- [Importable calendar (.ics)](calendar/go-8-week-course.ics)
+- [hostwatch project specification](projects/hostwatch/README.md)
